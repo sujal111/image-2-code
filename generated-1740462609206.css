@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #dcd6f7;
+}
+
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(180deg, #2b2e4a 0%, #4a4e69 100%);
+  border-radius: 20px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav a, .get-started {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.get-started {
+  background: linear-gradient(93.75deg, #0f2027 0%, #38908f 100%);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+  line-height: 1.2;
+}
+
+.intro p {
+  margin: 0 0 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.open-account {
+  background-color: #17d392;
+  color: #282a36;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card.large {
+  flex: 2;
+}
+
+.card.medium {
+  flex: 1;
+}
+
+.input-card {
+  display: flex;
+  align-items: center;
+}
+
+.input-card input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.start-button {
+  background: #0f2027;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 1rem;
+}
+
+.info .author {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
